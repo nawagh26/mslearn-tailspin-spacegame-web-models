@@ -12,7 +12,7 @@ steps:
     version: '$(dotnetSdkVersion)'
 
 - task: DotNetCoreCLI@2
-  displayName: 'Restore project dependencies'
+  displayName: ' Restore project dependencies'
   inputs:
     command: 'restore'
     projects: '**/*.csproj'
